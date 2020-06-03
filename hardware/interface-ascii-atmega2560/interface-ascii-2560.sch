@@ -1961,31 +1961,6 @@ F 3 "~" H 11950 4650 50  0001 C CNN
 	1    11950 4650
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 12150 3450
-NoConn ~ 12150 3550
-NoConn ~ 12150 3650
-NoConn ~ 12150 3750
-NoConn ~ 12150 3850
-NoConn ~ 12150 3950
-NoConn ~ 12150 4050
-NoConn ~ 12150 4150
-NoConn ~ 12150 4250
-NoConn ~ 12150 4350
-NoConn ~ 12150 4450
-NoConn ~ 12150 4550
-NoConn ~ 12150 5850
-NoConn ~ 12150 5750
-NoConn ~ 12150 5650
-NoConn ~ 12150 5550
-NoConn ~ 12150 5450
-NoConn ~ 12150 5350
-NoConn ~ 12150 5250
-NoConn ~ 12150 5150
-NoConn ~ 12150 5050
-NoConn ~ 12150 4950
-NoConn ~ 12150 4850
-NoConn ~ 12150 4750
-NoConn ~ 12150 4650
 $Comp
 L Connector_Generic:Conn_01x16 J6
 U 1 1 5ED55F89
@@ -2067,6 +2042,160 @@ Text Label 3700 3200 0    50   ~ 0
 MISO
 Text Label 3700 3500 0    50   ~ 0
 MOSI
+Entry Wire Line
+	13400 3950 13500 4050
+Entry Wire Line
+	13400 3850 13500 3950
+Entry Wire Line
+	13400 5050 13500 5150
+Entry Wire Line
+	13400 4550 13500 4650
+Entry Wire Line
+	13400 4450 13500 4550
+Entry Wire Line
+	13400 4150 13500 4250
+Entry Wire Line
+	13400 4050 13500 4150
+Entry Wire Line
+	13400 4950 13500 5050
+Entry Wire Line
+	13400 4750 13500 4850
+Entry Wire Line
+	13400 4650 13500 4750
+Entry Wire Line
+	13400 4850 13500 4950
+Entry Wire Line
+	13400 3550 13500 3650
+Wire Wire Line
+	12150 4450 13400 4450
+Wire Wire Line
+	12150 4650 13400 4650
+Wire Wire Line
+	12150 4750 13400 4750
+Wire Wire Line
+	12150 5050 13400 5050
+Text Label 12550 3550 0    50   ~ 0
+Col4
+Text Label 12550 4450 0    50   ~ 0
+Col3
+Text Label 12550 4650 0    50   ~ 0
+Col2
+Text Label 12550 4750 0    50   ~ 0
+Col1
+Text Label 12550 5050 0    50   ~ 0
+Col0
+Wire Wire Line
+	13400 3850 12150 3850
+Wire Wire Line
+	12150 3950 13400 3950
+Wire Wire Line
+	13400 4050 12150 4050
+Wire Wire Line
+	12150 4150 13400 4150
+Text Label 12550 3850 0    50   ~ 0
+Row0
+Text Label 12550 3950 0    50   ~ 0
+Row1
+Text Label 12550 4050 0    50   ~ 0
+Row2
+Text Label 12550 4150 0    50   ~ 0
+Row3
+Text Label 12550 4250 0    50   ~ 0
+Row4
+Text Label 12550 4350 0    50   ~ 0
+Row5
+Entry Wire Line
+	13400 4150 13500 4250
+Entry Wire Line
+	13400 4350 13500 4450
+Entry Wire Line
+	13400 4250 13500 4350
+Wire Wire Line
+	13400 4250 12150 4250
+Wire Wire Line
+	12150 4350 13400 4350
+Wire Wire Line
+	12150 4550 13400 4550
+Wire Wire Line
+	12150 4850 13400 4850
+Wire Wire Line
+	12150 4950 13400 4950
+Wire Wire Line
+	12150 5150 13400 5150
+Text Label 12550 4550 0    50   ~ 0
+Row6
+Text Label 12550 4850 0    50   ~ 0
+Row7
+Text Label 12550 4950 0    50   ~ 0
+Row9
+Text Label 12550 5150 0    50   ~ 0
+Row10
+Wire Wire Line
+	12150 3550 13400 3550
+Entry Wire Line
+	13400 5150 13500 5250
+Entry Wire Line
+	13400 5350 13500 5450
+Entry Wire Line
+	13400 5450 13500 5550
+Entry Wire Line
+	13400 5250 13500 5350
+Entry Wire Line
+	13400 5550 13500 5650
+Entry Wire Line
+	13400 5650 13500 5750
+Entry Wire Line
+	13400 5750 13500 5850
+Entry Wire Line
+	13400 3650 13500 3750
+Wire Wire Line
+	12150 5450 13400 5450
+Wire Wire Line
+	13400 5550 12150 5550
+Text Notes 12250 5450 0    50   ~ 0
+Reset
+Text Notes 12250 5550 0    50   ~ 0
+Reset
+Text Notes 12250 3650 0    50   ~ 0
+Control
+Wire Wire Line
+	12150 5650 13400 5650
+Text Label 12550 5650 0    50   ~ 0
+Row11
+Text Notes 11900 6300 0    50   ~ 0
+Control: Row 11, Col 0\nShift: Row 11, Col 1\nRESET: Row 11, Col 2\nRepeat: Row 11, Col 3
+Text Label 12550 5550 0    50   ~ 0
+Row11
+Wire Wire Line
+	12150 3650 13400 3650
+Text Label 12550 3650 0    50   ~ 0
+Col0
+Wire Wire Line
+	12150 5750 13400 5750
+Text Label 12550 5750 0    50   ~ 0
+Col1
+Text Notes 12250 5750 0    50   ~ 0
+Shift
+Wire Wire Line
+	12150 5250 13400 5250
+Wire Wire Line
+	13400 5350 12150 5350
+Text Notes 12250 5350 0    50   ~ 0
+Repeat
+Text Notes 12250 5250 0    50   ~ 0
+Repeat
+Text Label 12550 5350 0    50   ~ 0
+Row11
+Text Label 12550 5250 0    50   ~ 0
+Col3
+Text Label 12550 5450 0    50   ~ 0
+Col2
+Wire Wire Line
+	12150 3750 13400 3750
+Entry Wire Line
+	13400 3750 13500 3850
+Text Label 12550 3750 0    50   ~ 0
+LED1
 Wire Bus Line
 	2500 1200 2500 4600
 Wire Bus Line
@@ -2074,9 +2203,9 @@ Wire Bus Line
 Wire Bus Line
 	2500 4600 2500 8400
 Wire Bus Line
-	13500 2200 13500 8200
-Wire Bus Line
 	15900 2200 15900 8200
 Wire Bus Line
 	10700 2600 10700 8200
+Wire Bus Line
+	13500 2200 13500 8200
 $EndSCHEMATC
